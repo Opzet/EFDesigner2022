@@ -37,11 +37,10 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
+    <CopyVsixExtensionFiles>False</CopyVsixExtensionFiles>
     <NoWarn>CS1762,VSTHRD001,MSB3277,IDE0005</NoWarn>
     <PlatformTarget>x64</PlatformTarget>
     <DocumentationFile>bin\Debug\Sawczyn.EFDesigner.EFModel.DslPackage.xml</DocumentationFile>
-    <CopyVsixExtensionLocation>D:\Source\Repos\EFDesigner2022\src\DslPackage\bin</CopyVsixExtensionLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -49,7 +48,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>3</WarningLevel>
     <NoWarn>CS1762;VSTHRD001;MSB3277</NoWarn>
     <DocumentationFile>bin\Release\Sawczyn.EFDesigner.EFModel.DslPackage.xml</DocumentationFile>
     <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
